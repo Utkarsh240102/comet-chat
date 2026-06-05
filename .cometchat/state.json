@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "applied_at": "2026-06-05T20:55:18.125Z",
+  "framework": "nextjs",
+  "framework_version": "16.2.7",
+  "experience": 1,
+  "experience_slug": "conversation-list",
+  "placement": "spa-root",
+  "template_version": "1.0.0",
+  "sdk_version": null,
+  "credentials_source": "none",
+  "env_var_prefix": "NEXT_PUBLIC_",
+  "files_owned": [
+    "src/app/cometchat/CometChatNoSSR.tsx",
+    "src/app/cometchat/CometChatNoSSR.css",
+    "src/app/cometchat/CometChatSelector.tsx",
+    "src/app/chat/page.tsx"
+  ],
+  "files_patched": [
+    {
+      "path": "src/app/globals.css",
+      "patch_id": "1/src/app/globals.css"
+    }
+  ],
+  "checksums": {
+    "src/app/cometchat/CometChatNoSSR.tsx": "bf9154087c4086b8002e5907d4ca8c111bcbc7b137f0fc8fe287f83178b1141a",
+    "src/app/cometchat/CometChatNoSSR.css": "f2ff7e78f701a08e85469a1636fc6493a77dca7aa2b24cde8fdeeee154bdd2d6",
+    "src/app/cometchat/CometChatSelector.tsx": "fb02fac2caf33a8c5eccd34686aed6fc620b23cb5e83bf74c56746ba588e20af",
+    "src/app/chat/page.tsx": "a70e1e11e4288364b3be2169854b6d1d945b434d15734da5dac1de205981cf59"
+  },
+  "router": "app"
+}
